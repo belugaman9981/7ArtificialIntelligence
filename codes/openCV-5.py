@@ -21,3 +21,8 @@ frame[0:2, 0:5] = 10
 frame[0:2, 0:5] = 100
 
 print("\n", frame)
+
+frame[0:5, 0:5] = 0 # or frame[:,:]=0
+frame[:,:]=0
+
+print("\n", frame)
