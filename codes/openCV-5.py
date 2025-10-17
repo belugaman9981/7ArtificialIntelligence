@@ -23,7 +23,10 @@ frame[0:2, 0:5] = 100
 print("\n", frame)
 
 frame[0:5, 0:5] = 0 # or frame[:,:]=0
-frame[:,:]=0
+frame[:,:] = 0
 
 print("\n", frame)
 
+frame[:,3:] = 0 # goes form none to last
+
+print("\n", frame)
