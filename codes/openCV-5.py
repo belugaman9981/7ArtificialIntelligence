@@ -30,3 +30,7 @@ print("\n", frame)
 frame[:,3:] = 0 # goes form none to last
 
 print("\n", frame)
+
+frame [0:2, 0:2] = 1
+
+print("\n", frame)
