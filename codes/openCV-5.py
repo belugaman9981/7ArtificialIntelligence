@@ -26,3 +26,4 @@ frame[0:5, 0:5] = 0 # or frame[:,:]=0
 frame[:,:]=0
 
 print("\n", frame)
+
