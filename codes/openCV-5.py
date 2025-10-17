@@ -16,3 +16,8 @@ print("\n", frame)
 
 frame[1, 1] = 125
 print("\n", frame)
+
+frame[0:2, 0:5] = 10
+frame[0:2, 0:5] = 100
+
+print("\n", frame)
