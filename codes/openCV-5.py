@@ -38,3 +38,7 @@ print("\n", frame)
 frame = np.zeros([2, 2, 3], dtype = np.uint8)
 
 print("\n", frame)
+
+frame[1, 1] = (0, 0, 255)
+
+print("\n", frame)
