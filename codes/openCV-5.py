@@ -34,3 +34,7 @@ print("\n", frame)
 frame [0:2, 0:2] = 1
 
 print("\n", frame)
+
+frame = np.zeros([2, 2, 3], dtype = np.uint8)
+
+print("\n", frame)
